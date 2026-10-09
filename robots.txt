@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://piplines.online/sitemap.xml
+Sitemap: https://outreach.piplines.online/sitemap.xml

@@ -1,9 +1,9 @@
-# Outreach Pipelines — Public Website (piplines.online)
+# Outreach Pipelines — Public Website (outreach.piplines.online)
 
 Static, zero-cost marketing + transparency site for **Outreach Pipelines**, an early-stage
 technology project for nonprofit outreach. No build step, no backend, no analytics.
 
-- Live domain: `https://piplines.online`
+- Live domain: `https://outreach.piplines.online`
 - Repo: `https://github.com/Rajathk6/Outreach_piplines` (currently holds GPL-3.0 `LICENSE` + this site)
 - License: GPL-3.0 (see `LICENSE` on the `main` branch — do not delete it)
 
@@ -45,8 +45,7 @@ Cloudflare Pages with no SPA fallback or redirect rules needed.
 5. **Build command:** *(leave empty — no build needed)*
 6. **Build output directory:** `/` (leave as repo root; `index.html` is at the root)
 7. **Environment variables:** none needed.
-8. Deploy, then **Custom domains → Set up a custom domain → `piplines.online`**
-   (and optionally `www.piplines.online`). Do not change MX / email-routing records.
+8. Deploy, then **Custom domains → Set up a custom domain → `outreach.piplines.online`** (the existing apex `piplines.online` stays as-is). Do not change MX / email-routing records.
 9. Verify: `/`, `/about/`, `/product/`, `/impact/`, `/faq/`, `/contact/`,
    `/privacy/`, `/terms/` load directly; unknown URL shows the custom 404.
 
